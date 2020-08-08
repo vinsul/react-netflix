@@ -1,0 +1,33 @@
+body {
+  background-color: black;
+}
+
+.logo {
+  height: 100px;
+  margin-left: 50px;
+}
+
+.movies-carousel > p {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.movies-carousel > div {
+  display: flex;
+  overflow: hidden;
+  overflow-x: scroll;
+}
+
+.movies-carousel img {
+  width: 220px;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.movies-carousel {
+  margin: 0 0 40px 50px;
+}
